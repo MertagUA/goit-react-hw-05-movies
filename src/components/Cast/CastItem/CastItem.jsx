@@ -13,9 +13,3 @@ export const CastItem = ({ name, character, profile_path }) => {
     </CastItemStyled>
   );
 };
-
-// CastItem.propTypes = {
-//   name: PropTypes.string.isRequired,
-//   character: PropTypes.string,
-//   profile_path: PropTypes.string,
-// };
