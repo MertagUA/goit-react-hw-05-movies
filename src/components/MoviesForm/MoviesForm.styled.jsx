@@ -17,3 +17,7 @@ export const Button = styled.button`
   background-color: ${theme.color.teal};
   box-shadow: ${theme.boxShadow};
 `;
+
+export const FormWrapper = styled.div`
+  margin-bottom: 20px;
+`;

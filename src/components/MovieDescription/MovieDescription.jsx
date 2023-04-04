@@ -7,6 +7,7 @@ import {
   Title,
   UserScore,
 } from './MovieDescription.styled';
+import PropTypes from 'prop-types';
 
 export const MovieDescription = ({ movieDescription }) => {
   const { title, poster_path, overview, vote_average, genres } =
@@ -32,4 +33,8 @@ export const MovieDescription = ({ movieDescription }) => {
       </MovieDescriptionWrapper>
     </>
   );
+};
+
+MovieDescription.propTypes = {
+  movieDescription: PropTypes.object,
 };

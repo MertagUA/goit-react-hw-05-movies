@@ -6,6 +6,9 @@ export const MovieDescriptionWrapper = styled.div`
 `;
 
 export const MovieDescriptionThumb = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   margin-left: 20px;
   width: 500px;
 `;
