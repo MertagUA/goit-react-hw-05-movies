@@ -1,5 +1,4 @@
 import { CastCharacter, CastItemStyled, CastName } from './CastItem.styled';
-import PropTypes from 'prop-types';
 
 export const CastItem = ({ name, character, profile_path }) => {
   const actorPoster = profile_path
